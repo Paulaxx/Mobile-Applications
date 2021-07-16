@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="descriptions">
+        <item>photo1</item>
+        <item>photo2</item>
+        <item>photo3</item>
+        <item>photo4</item>
+        <item>photo5</item>
+        <item>photo6</item>
+        <item>photo7</item>
+        <item>photo8</item>
+        <item>photo9</item>
+        <item>photo10</item>
+        <item>photo11</item>
+        <item>photo12</item>
+        <item>photo13</item>
+        <item>photo14</item>
+        <item>photo15</item>
+        <item>photo16</item>
+        <item>photo17</item>
+        <item>photo18</item>
+        <item>photo19</item>
+        <item>photo20</item>
+        <item>photo21</item>
+    </string-array>
+</resources>
