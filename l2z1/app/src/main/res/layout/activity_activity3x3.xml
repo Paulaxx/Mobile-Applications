@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd  "
+    tools:context=".Activity3x3">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@android:color/transparent"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="1dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="3">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            android:layout_margin="3dp"
+            app:layout_row="0"
+            app:layout_rowWeight="1"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_margin="3dp"
+            android:onClick="click"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:layout_margin="3dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:onClick="click"
+            android:paddingTop="0px"
+            android:paddingBottom="0px"
+            android:layout_margin="3dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+        <!--app:backgroundTint="@color/black"-->
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:onClick="click"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:layout_margin="3dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:layout_margin="3dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:layout_margin="3dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white"
+            android:layout_margin="3dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:fontFamily="casual"
+        android:text="Player X's move"
+        android:textAlignment="center"
+        android:textColor="#E1CC12"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
