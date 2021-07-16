@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">To-do</string>
+    <string-array name="priority">
+        <item>1 - very important</item>
+        <item>2 - important</item>
+        <item>3 - not important</item>
+    </string-array>
+    <string-array name="types">
+        <item>task</item>
+        <item>meeting</item>
+        <item>training/exercises</item>
+        <item>entertainment</item>
+        <item>shopping</item>
+        <item>charges</item>
+        <item>another</item>
+    </string-array>
+</resources>
